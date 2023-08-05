@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.section {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 3% 0 0 0;
+    overflow: hidden;
+    background-color: #e3e7f1;
+}
+.top-destinations {
+    padding: 3% 0 3.5% 0;
+    
+}
+.container{
+    width:100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.title-holder{
+    margin: 0 0 2.5% 0;
+}
+.title-holder .sub-head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+    max-width: 1024px;
+    color: #444;
+    font-weight: 300;
+    letter-spacing: -0.05px;
+}
+.title-holder h2{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+}
+.section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #036;
+}
+h2 {
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.col{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.topdestination-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+.img-responsive{
+display: block;
+    max-width: 100%;
+    height: auto;
+}
+Image{
+    vertical-align: middle;
+    border: 0;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.wall [class*=col-md] {
+    padding: 1px 1px 0 0;
+}
+.topdestination-wrapper .caption-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.find-more {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+.text-center {
+    text-align: center;
+}
+.find-more .text-center{
+    width: 1340px;
+    height: 452.85;
+}
+.find-more .btn {
+    min-width: 180px;
+    padding: 10px 20px;
+    background-color: #036;
+    color: #fff;
+    margin-top: 2.5%;
+    display: inline-block;
+}
+
+.find-more .btn:hover {
+    background-color: #00264C;
+    border-color: #00264C;
+
+}
+.btn{
+    border-radius: 0;
+    border-color: #036;
+}
+.fa{
+
+        display: inline-block;
+        color: #fff;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 21px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+}
+.fa-chevron-right:before {
+    content: \f054;
+}
+
